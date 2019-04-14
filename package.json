@@ -1,0 +1,12 @@
+{
+  "name": "mobile-wiki-redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "author": "eunseocho@gmail.com",
+  "license": "BSD-2-Clause"
+}

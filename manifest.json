@@ -1,0 +1,13 @@
+{
+    "name": "Mobile Wikipedia Redirect",
+    "version": "1.0",
+    "description": "I hate the mobile Wikipedia page on a non-mobile browser",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.m.wikipedia.org/*"],
+            "js": ["index.js"]
+        }
+    ],
+    "permissions": ["activeTab", "*://*.m.wikipedia.org/*"]
+}
